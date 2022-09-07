@@ -1,4 +1,5 @@
-// an Ethereum vault that allows depositors to withdraw only 1 ether per week
+// a vulnerable Ethereum vault that allows depositors to withdraw only 1 ether per week
+//@dev vulnerability is on line 19
 
 contract EtherStore {
     uint256 public withdrawLimit = 1 ether;
